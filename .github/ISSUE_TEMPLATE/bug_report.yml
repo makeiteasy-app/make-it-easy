@@ -1,0 +1,43 @@
+name: 问题报告 / Bug report
+description: App 出错、显示不对、编译失败
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 谢谢反馈！请不要上传有版权、不能公开的论文全文；截图里如果有个人信息请先打码。
+  - type: input
+    id: version
+    attributes:
+      label: 版本 / Version
+      description: 文献列表右上角或安装包文件名里的版本号，例如 4.1.0-alpha
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: AI 接入方式 / AI access
+      options:
+        - 本机 Claude Code
+        - 本机 Codex
+        - 本机 Gemini CLI
+        - 云端 API（OpenAI / Anthropic / Gemini / DeepSeek / 兼容接口）
+        - 不确定 / 和 AI 无关
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么 / What happened
+      description: 做了哪几步、看到了什么、本来期望看到什么。有报错文字请直接粘贴。
+    validations:
+      required: true
+  - type: textarea
+    id: shots
+    attributes:
+      label: 截图 / Screenshots
+      description: 可以直接拖进来
+  - type: input
+    id: system
+    attributes:
+      label: 系统 / System
+      placeholder: Windows 11 23H2
