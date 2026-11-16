@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/zero-knowledge123/Make-It-Easy-Releases/releases/latest"><b>⬇ 下载最新版 V4.1 alpha（Windows）</b></a>
+  <a href="https://github.com/makeiteasy-app/make-it-easy/releases/latest"><b>⬇ 下载最新版 V4.1 alpha（Windows）</b></a>
 </p>
 
 <p align="center">
@@ -56,7 +56,7 @@
 
 ## 安装
 
-1. 在 [Releases](https://github.com/zero-knowledge123/Make-It-Easy-Releases/releases/latest) 下载 `Make-It-Easy-Setup-<版本>.exe`，运行时可以自己选安装位置，不必装在 C 盘。也可以下载 zip 免安装版，解压后运行 `Make It Easy.exe`。
+1. 在 [Releases](https://github.com/makeiteasy-app/make-it-easy/releases/latest) 下载 `Make-It-Easy-Setup-<版本>.exe`，运行时可以自己选安装位置，不必装在 C 盘。也可以下载 zip 免安装版，解压后运行 `Make It Easy.exe`。
 2. 安装包暂时没有数字签名，Windows 可能提示「已保护你的电脑」，点「更多信息」再点「仍要运行」。
 3. 打开后选一种 AI 接入方式，就可以拖入 PDF 了。
 
@@ -79,7 +79,7 @@
 译文的授权跟随原文。请只用于个人学习，不要公开分享别人作品的译文。
 
 **遇到问题怎么反馈？**
-在本仓库的 [Issues](https://github.com/zero-knowledge123/Make-It-Easy-Releases/issues) 里留言即可。
+在本仓库的 [Issues](https://github.com/makeiteasy-app/make-it-easy/issues) 里留言即可。
 
 ## 许可
 
