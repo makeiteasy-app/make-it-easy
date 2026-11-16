@@ -7,11 +7,11 @@
 <p align="center">
   <b>The PDF Dimension Lifter</b><br>
   <b><i>Drop in a PDF you can't follow. Get back a book you can.</i></b><br>
-  <i>Faithful translation, clear logical structure, page-flip reading, and live interactive visualizations for any formula you're stuck on.</i>
+  <i>Faithful translation, clear logical structure, page-flip reading, highlights with in-place Q&amp;A, and live interactive visualizations for any formula you're stuck on.</i>
 </p>
 
 <p align="center">
-  <a href="https://github.com/zero-knowledge123/Make-It-Easy-Releases/releases/latest"><b>⬇ 下载最新版（Windows）</b></a>
+  <a href="https://github.com/zero-knowledge123/Make-It-Easy-Releases/releases/latest"><b>⬇ 下载最新版 V4.1 alpha（Windows）</b></a>
 </p>
 
 <p align="center">
@@ -22,19 +22,25 @@
 
 ## 它能做什么
 
-把论文、教材或讲义的 PDF 拖进来，点「编译」，几分钟后得到一份能读懂的版本：原文忠实翻译，论证结构标出来，排成一本可以翻页的书。哪条公式看不懂，点一下，AI 就为它现场做一个能动手操作的演示。
+把论文、教材或讲义的 PDF 拖进来，点「编译」，几分钟后得到一份能读懂的版本：原文忠实翻译，论证结构标出来，排成一本可以翻页的书。哪条公式看不懂，点一下，AI 就为它现场做一个能动手操作的演示；哪句话看不懂，选中它直接问，回答就留在那句话下面。
 
 ### ✨ 哪条公式看不懂，就为它做一个演示
 
 <img src="images/module.jpg" alt="可交互演示：一步步加入正弦项，看部分和逼近方波" width="100%">
 
-每条公式旁边有两个小圆点。蓝点生成**可交互实验**，可以改参数、上一步下一步地把推导走一遍；紫点生成**可视化动画**。演示由 AI 读懂这条公式后当场写出，交给你之前会先在本地试运行校验。
+每条公式旁边有两个小圆点。蓝点生成**可交互实验**，可以改参数、上一步下一步地把推导走一遍；紫点生成**可视化动画**。演示由 AI 读懂这条公式后当场写出，交给你之前会先在本地试运行校验。演示打开时是暂停的，框的大小固定不跳；生成中可以随时「中止」。
 
 ### 📖 像一本真书那样翻页
 
 <img src="images/book.jpg" alt="书页模式：两页并排铺满窗口" width="100%">
 
-两页并排铺满窗口，`D` 或 `→` 下一页，`A` 或 `←` 上一页。公式、图表、注释和演示不会被拆到两页。左下角可以切回滚动版式。
+两页并排铺满窗口，`D` 或 `→` 下一页，`A` 或 `←` 上一页。公式、图表、注释和演示不会被拆到两页。底栏的「☰ 目录」每一页都能打开，左下角可以切回滚动版式。
+
+### ✍️ 画笔高亮，选中就问
+
+<img src="images/notes.jpg" alt="两处不同颜色的高亮，和一条展开在原句下方的 AI 回答" width="100%">
+
+右下角选画笔颜色，按住右键拖过文字就涂上。左键选中一段，写下问题回车：AI 只收到这段和它前后几段，不重读整篇，省时间也省额度。回答留在那段下面，收起后只剩一个小三角；高亮和问答都存在本机，你删了才会删。
 
 ### 🧭 忠实翻译，论证结构标出来
 
@@ -46,7 +52,7 @@
 
 <img src="images/home.jpg" alt="文献列表" width="100%">
 
-编译好的文献自动分组，编译时显示进度和剩余时间。AI 可以用你自己已登录的 Claude Code、Codex 或 Gemini CLI（走你自己的订阅，不需要 API 密钥），也可以填云端 API 密钥。
+编译好的文献自动分组，编译时显示进度和剩余时间。AI 可以用你自己已登录的 Claude Code、Codex 或 Gemini CLI（走你自己的订阅，不需要 API 密钥），也可以填云端 API 密钥，模型可从常见型号里下拉选。字体可以自己挑：西文默认论文用的 Computer Modern，中、日、韩、阿拉伯、印地文各有几款常见字体。
 
 ## 安装
 
@@ -62,6 +68,9 @@
 
 **要花钱吗？**
 个人学习、研究和学校使用免费。AI 用的是你自己的订阅或 API 额度。
+
+**选中提问要花很多额度吗？**
+不多。每次只发选中的文字、它所在的几段和你的问题，通常一千字以内。
 
 **数据存在哪里？**
 都在你自己的电脑上。文献列表右上角的「存储位置」可以把数据一键搬到别的盘。
