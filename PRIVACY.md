@@ -21,7 +21,7 @@ Make It Easy 没有账号系统，不做使用统计、遥测或崩溃上报，�
 | 连到哪里 | 什么时候 | 发送什么 |
 |---|---|---|
 | 你选择的 AI 服务商（OpenAI、Anthropic、Google、DeepSeek 或你填写的兼容接口） | 编译、生成演示、提问时 | 完成这件事需要的论文内容（页面图像或文字、相关段落）和你的问题 |
-| 你电脑上的命令行助手（Claude Code、Codex、Gemini CLI） | 选择「本机命令行」接入时 | 同上，由这些助手转发给它们各自的服务 |
+| 你电脑上的命令行助手（Claude Code、Codex、Antigravity CLI） | 选择「本机命令行」接入时 | 同上，由这些助手转发给它们各自的服务 |
 | 本机桥接（127.0.0.1，不出你的电脑） | 使用本机命令行接入时 | App 内部转交任务 |
 | npm、nodejs.org | 你点「安装命令行助手」时 | 下载安装这些工具 |
 
@@ -39,6 +39,6 @@ Make It Easy 没有账号系统，不做使用统计、遥测或崩溃上报，�
 
 - Make It Easy has no accounts, no analytics, no telemetry, no crash reporting and no automatic updates. We (the developers) receive none of your documents, translations, highlights, questions, settings or usage.
 - Your library (original PDFs, compiled results, highlights and questions) and settings are stored locally, by default in `%APPDATA%\Make It Easy`; you can move them under "Storage location". Cloud API keys are stored locally and encrypted when the system supports it.
-- The app connects only when you use a feature: to the AI provider you chose (OpenAI, Anthropic, Google, DeepSeek or a compatible endpoint you entered), directly or through a command-line assistant on your computer (Claude Code, Codex, Gemini CLI), sending the paper content and questions needed for that task; to a local bridge on 127.0.0.1 that never leaves your computer; and to npm / nodejs.org when you ask it to install a command-line assistant.
+- The app connects only when you use a feature: to the AI provider you chose (OpenAI, Anthropic, Google, DeepSeek or a compatible endpoint you entered), directly or through a command-line assistant on your computer (Claude Code, Codex, Antigravity CLI), sending the paper content and questions needed for that task; to a local bridge on 127.0.0.1 that never leaves your computer; and to npm / nodejs.org (or Google's official Antigravity installer) when you ask it to install a command-line assistant.
 - What you send to an AI provider is governed by your terms with that provider. Please read its privacy policy before connecting.
 - Questions: open an issue at https://github.com/makeiteasy-app/make-it-easy/issues.
