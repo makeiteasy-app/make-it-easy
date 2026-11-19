@@ -4,7 +4,7 @@
 
 | 版本 | 条款 |
 |---|---|
-| V4 alpha（4.0.0-alpha.1）、V4.1 alpha（4.1.0-alpha）、V4.2 alpha（4.2.0-alpha） | [PolyForm Noncommercial 1.0.0](LICENSE)：个人学习、研究、兴趣项目，以及学校、公益和科研机构使用都免费，也可以转给别人（转发时附上许可条款）。**不允许商业用途。** |
+| V4 alpha（4.0.0-alpha.1）、V4.1 alpha（4.1.0-alpha）、V4.2 alpha（4.2.0-alpha）、V4.3 alpha（4.3.0-alpha） | [PolyForm Noncommercial 1.0.0](LICENSE)：个人学习、研究、兴趣项目，以及学校、公益和科研机构使用都免费，也可以转给别人（转发时附上许可条款）。**不允许商业用途。** |
 | 之后的版本 | 以该版本发布时附带的条款为准（会写在 Release 说明和安装目录的 `LICENSE.txt` 里）。 |
 
 已经发布的版本，按它发布时的条款继续有效。
@@ -34,4 +34,4 @@ App 里用到的第三方组件保留各自的许可，许可文本随安装包�
 
 ---
 
-**English summary.** Releases up to 4.2.0-alpha are licensed under the PolyForm Noncommercial License 1.0.0 (free for personal, educational, research and non-profit use; no commercial use). Later releases carry the terms stated with them. The source code is not public. Third-party components keep their own licences, shipped with the app. Translations you compile follow the licence of the original work.
+**English summary.** Releases up to 4.3.0-alpha are licensed under the PolyForm Noncommercial License 1.0.0 (free for personal, educational, research and non-profit use; no commercial use). Later releases carry the terms stated with them. The source code is not public. Third-party components keep their own licences, shipped with the app. Translations you compile follow the licence of the original work.
