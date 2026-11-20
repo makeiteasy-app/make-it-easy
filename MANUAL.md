@@ -39,7 +39,7 @@ Make It Easy 把论文、教材、讲义的 PDF 编译成一份「读得懂的�
 
 ### 1.2 卸载
 
-在 Windows「设置 → 应用」里卸载「Make It Easy」。卸载只删程序本身，**不会删你的文献库和数据**（位置见第 9 节）。要彻底删除，再手动删掉数据文件夹。
+在 Windows「设置 → 应用」里卸载「Make It Easy」。卸载只删程序本身，**不会删你的文献库和数据**（位置见第 10 节）。要彻底删除，再手动删掉数据文件夹。
 
 ---
 
@@ -289,7 +289,7 @@ Make It Easy 把论文、教材、讲义的 PDF 编译成一份「读得懂的�
 
 ## 9. 在手机或平板上读
 
-通过 Tailscale，可以在手机、平板上读这台电脑上的文献库：翻阅论文、看高亮和问答、长按选中一段提问、生成和看演示、收进卡片都可以。AI 仍在电脑上运行，本机的 Claude Code、Codex、Antigravity 和云端 API 都照常用。电脑和 Make It Easy 要开着。
+通过 Tailscale，可以在手机、平板上读这台电脑上的文献库：翻阅论文、看高亮和问答、长按选中一段提问、生成和看演示、收进卡片都可以。AI 仍在电脑上运行，本机的 Claude Code、Codex、Antigravity、Grok Build 和云端 API 都照常用。电脑和 Make It Easy 要开着。
 
 **第一次设置**
 
@@ -382,9 +382,6 @@ library-v2/
 **AI 卡片里有错？**
 在卡片页展开它，改概括或直接删除。原话是作者原文，不会错，只是可能选得不够准，不合适就删掉这张。
 
-**全屏后点「还原」没反应？**
-4.3 起已修复，会缩回普通大小。
-
 **安装后打不开，或安装失败？**
 多半是 C 盘空间不足 1 GB。清理出空间后重新安装即可。
 
@@ -398,6 +395,6 @@ library-v2/
 
 ## 13. 许可与隐私
 
-- **许可**：到 V4.3 alpha 为止已发布的版本，采用 PolyForm Noncommercial 1.0.0：个人学习、研究、兴趣项目，以及学校、公益和科研机构使用都免费，不允许商业用途。各版本的条款见公开仓库的 [LICENSING.md](https://github.com/makeiteasy-app/make-it-easy/blob/main/LICENSING.md)，安装目录里的 `LICENSE.txt` 是全文。
-- **隐私**：你的文献、高亮、问答和卡片都留在自己电脑上。App 只和你选的 AI 服务通信；安装命令行助手时，还会连接 npm 和 nodejs.org 下载安装包。App 不收集使用数据，详见 [PRIVACY.md](https://github.com/makeiteasy-app/make-it-easy/blob/main/PRIVACY.md)。
+- **许可**：到 V5.0 alpha 为止已发布的版本，采用 PolyForm Noncommercial 1.0.0：个人学习、研究、兴趣项目，以及学校、公益和科研机构使用都免费，不允许商业用途。各版本的条款见公开仓库的 [LICENSING.md](https://github.com/makeiteasy-app/make-it-easy/blob/main/LICENSING.md)，安装目录里的 `LICENSE.txt` 是全文。
+- **隐私**：你的文献、高亮、问答和卡片都留在自己电脑上。App 只和你选的 AI 服务通信；安装命令行助手时，还会连接 npm、nodejs.org 或 Antigravity / Grok Build 的官方安装脚本下载安装包。开启手机阅读后，只有你自己 Tailscale 账号里、配对过的设备能访问。App 不收集使用数据，详见 [PRIVACY.md](https://github.com/makeiteasy-app/make-it-easy/blob/main/PRIVACY.md)。
 - **第三方组件**：Electron、KaTeX、PDF.js、StPageFlip、React 和若干开源字体，各自保留原有许可，许可文本随安装包提供。
