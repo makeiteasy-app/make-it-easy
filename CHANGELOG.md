@@ -2,6 +2,13 @@
 
 下载见 [Releases](https://github.com/makeiteasy-app/make-it-easy/releases)。各版本适用的许可见 [LICENSING.md](LICENSING.md)。
 
+## V5.0.1 alpha（5.0.1-alpha）· 2026-11-20
+
+**修复**
+
+- 首页的节日问候不再压在右上角的按钮上；打开论文时不再写问候。
+- 没打开过卡片页、直接打开分组「对比表」时，公式不再显示两遍。
+
 ## V5.0 alpha（5.0.0-alpha）· 2026-11-20
 
 **新功能**

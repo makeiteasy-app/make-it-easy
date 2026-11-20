@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-5.0.0--alpha-8C6BB1">
+  <img alt="version" src="https://img.shields.io/badge/version-5.0.1--alpha-8C6BB1">
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-6F97C0">
   <img alt="license" src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-E58C73">
 </p>
