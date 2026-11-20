@@ -2,6 +2,19 @@
 
 下载见 [Releases](https://github.com/makeiteasy-app/make-it-easy/releases)。各版本适用的许可见 [LICENSING.md](LICENSING.md)。
 
+## V5.0 alpha（5.0.0-alpha）· 2026-11-20
+
+**新功能**
+
+- **在手机、平板上读**：通过 Tailscale 读电脑上的文献库，高亮、长按选中提问、演示、收进卡片都能用；只对你自己的设备开放，要配对密钥。
+- **休息提醒**：顶栏药丸，绿点每读满 1 小时强制休息 15 分钟（只能和 AI 聊聊），灰点一直阅读。
+- **接入 Grok**：云端 API 新增 xAI (Grok)；本机命令行新增 Grok Build，可选模型。
+- **使用说明书**：13 章完整说明，见 [MANUAL.md](MANUAL.md)。
+
+**改进**
+
+- 滚动版式下，可视化动画的框不再一打开就拉得很长。
+
 ## V4.4 alpha（4.4.0-alpha）· 2026-11-19
 
 **新功能**

@@ -7,17 +7,18 @@
 <p align="center">
   <b>The PDF Dimension Lifter</b><br>
   <b><i>Drop in a PDF you can't follow. Get back a book you can.</i></b><br>
-  <i>Faithful translation, clear logical structure, page-flip reading, highlights with in-place Q&amp;A, and live interactive visualizations for any formula you're stuck on.</i>
+  <i>Faithful translation, clear logical structure, page-flip reading, highlights with in-place Q&amp;A, and live interactive visualizations for any formula you're stuck on. Read on your phone or tablet too.</i>
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-4.4.0--alpha-8C6BB1">
+  <img alt="version" src="https://img.shields.io/badge/version-5.0.0--alpha-8C6BB1">
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-6F97C0">
   <img alt="license" src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-E58C73">
 </p>
 
 <p align="center">
   <a href="https://github.com/makeiteasy-app/make-it-easy/releases/latest"><b>⬇ 下载最新版（Windows）</b></a>
+  &nbsp;·&nbsp; <a href="MANUAL.md">使用说明书</a>
   &nbsp;·&nbsp; <a href="CHANGELOG.md">更新日志</a>
   &nbsp;·&nbsp; <a href="https://github.com/makeiteasy-app/make-it-easy/issues">问题反馈</a>
 </p>
@@ -113,14 +114,29 @@ Make It Easy 想解决的就是这几件事。把论文、教材或讲义的 PDF
 - 首页切到「卡片」可以搜索、筛选、编辑，也能自己写想法卡；每个分组有一张对比表，把组里每篇论文的问题、方法、结果排在一起。
 - 作者、年份、期刊、DOI 自动整理好，可以导出 BibTeX。
 
+### 📱 在手机、平板上读
+
+通过 [Tailscale](https://tailscale.com)，在 iPhone、iPad 或安卓设备上读这台电脑上的文献库：翻阅论文、看高亮和问答、长按选中一段提问、生成和看演示、收进卡片都可以。AI 仍在电脑上运行，手机上只要装 Tailscale，不用装别的。
+
+首页点「手机 / 平板」，按提示开启后用手机扫二维码就行。只有登录你 Tailscale 账号的设备能连上，还要配对密钥，不会对家里的局域网或外网开放。
+
+### ☕ 读累了，起来走走
+
+顶栏右边有一个药丸，圆点的颜色代表模式：
+
+- **绿点 · 休息提醒**（默认）：每读满 1 小时，阅读页会被挡住，提醒你站起来走一走、喝口水、看看远处，15 分钟后才能接着读。休息时可以和 AI 聊聊天。
+- **灰点 · 一直阅读**：不计时，不提醒。
+
+只计你真正在读的时间：电脑闲置不算，离开满 15 分钟就当作已经休息过。
+
 ### 🔌 接入你自己的 AI
 
 <img src="images/settings.jpg" alt="语言与 AI 设置弹窗" width="100%">
 
 整个流程（解析、翻译、理解结构、写注释和演示）只用你接入的**同一个大模型**，不混用别的小模型。
 
-- **本机命令行（推荐）**：用你已经登录的 Claude Code、Codex 或 Antigravity CLI（Google 的 Gemini 现在通过它用），走你自己的订阅，不需要 API 密钥。没装的话会帮你装，没登录会打开官方登录窗口。每个助手都可以选模型，也可以让它自己决定。
-- **云端 API**：OpenAI、Anthropic、Gemini、DeepSeek 或兼容接口。密钥只存在本机，系统支持时会加密保存。
+- **本机命令行（推荐）**：用你已经登录的 Claude Code、Codex、Antigravity CLI（Google 的 Gemini 现在通过它用）或 Grok Build（xAI 官方的命令行助手），走你自己的订阅，不需要 API 密钥。没装的话会帮你装，没登录会打开官方登录窗口。每个助手都可以选模型，也可以让它自己决定。
+- **云端 API**：OpenAI、Anthropic、Gemini、DeepSeek、xAI (Grok) 或兼容接口。密钥只存在本机，系统支持时会加密保存。
 
 API 的「高级」里，模型可以从这家厂商的常见型号里下拉选，也可以自己填。
 
@@ -145,14 +161,22 @@ Make It Easy 的产品理念是一句话：**把复杂留给 AI，把简单留�
 2. 安装包暂时没有数字签名，Windows 可能提示「已保护你的电脑」，点「更多信息」再点「仍要运行」。
 3. 打开后选一种 AI 接入方式，就可以拖入 PDF 了。
 
-仅支持 64 位 Windows 10 / 11。
+每一步怎么用，见[使用说明书](MANUAL.md)。
+
+电脑端仅支持 64 位 Windows 10 / 11；手机、平板通过 Tailscale 连到电脑上读（iOS、安卓都可以）。
 
 想先试试效果，可以下载 Release 里的 `fourier-square-wave.pdf`。这是一篇为演示专门写的三页短文，讲怎样用正弦波拼出方波，可以自由使用（CC0）。本页的截图都来自它。
 
 ## 常见问题
 
 **要花钱吗？**
-目前发布的版本个人学习、研究和学校使用都免费（商业用途需要授权，见下方「许可」）。AI 用的是你自己的订阅或 API 额度。用本机的 Claude Code、Codex 或 Antigravity CLI 时，走的是你已有的订阅。
+目前发布的版本个人学习、研究和学校使用都免费（商业用途需要授权，见下方「许可」）。AI 用的是你自己的订阅或 API 额度。用本机的 Claude Code、Codex、Antigravity CLI 或 Grok Build 时，走的是你已有的订阅。
+
+**能在手机上用吗？**
+可以在手机、平板上读，但要电脑开着：电脑上的 Make It Easy 负责编译和 AI，手机通过 Tailscale 连过去。编译新论文仍在电脑上做。详见[说明书第 9 章](MANUAL.md#9-在手机或平板上读)。
+
+**编译过的论文，之后用 AI 还要重新编译吗？**
+不用。提问、生成演示、换辅助层级、做卡片都直接用存好的编译结果；只有换成品语言时要重新翻译。
 
 **选中提问要花很多额度吗？**
 不多。每次只发选中的文字、它所在的几段、引用的定理公式和你的问题，一般一千 token 左右，不会把整篇论文再发一遍；只有 AI 觉得信息不够时才会去全文里查。
@@ -177,7 +201,7 @@ Make It Easy 的产品理念是一句话：**把复杂留给 AI，把简单留�
 
 ## 许可
 
-- 每个版本适用哪种条款，以发布时附带的许可为准，详见 [LICENSING.md](LICENSING.md)。目前已发布的版本（到 V4.4 alpha 为止）都采用 [PolyForm Noncommercial 1.0.0](LICENSE)：个人学习、研究、兴趣项目，以及学校、公益和科研机构使用都免费，也可以转给别人（转发时附上许可条款）。**不允许商业用途**；想在商业场景使用，请通过 Issues 联系作者。
+- 每个版本适用哪种条款，以发布时附带的许可为准，详见 [LICENSING.md](LICENSING.md)。目前已发布的版本（到 V5.0 alpha 为止）都采用 [PolyForm Noncommercial 1.0.0](LICENSE)：个人学习、研究、兴趣项目，以及学校、公益和科研机构使用都免费，也可以转给别人（转发时附上许可条款）。**不允许商业用途**；想在商业场景使用，请通过 Issues 联系作者。
 - 本仓库只提供安装包和文档，源码不公开。
 - App 用到的第三方组件（Electron、KaTeX、PDF.js、StPageFlip、开源字体等）保留各自的许可，许可文本随安装包一起提供。
 - 隐私：你的文献和数据都留在自己电脑上，见 [PRIVACY.md](PRIVACY.md)。
